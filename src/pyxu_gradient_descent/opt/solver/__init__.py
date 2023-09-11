@@ -2,11 +2,11 @@ import itertools
 import warnings
 
 import pyxu.abc as pxa
+import pyxu.info.ptype as pxt
+import pyxu.info.warning as pxuw
 import pyxu.operator.func as pxof
 import pyxu.runtime as pxrt
 import pyxu.util as pxu
-import pyxu.info.ptype as pxt
-import pyxu.info.warning as pxuw
 
 __all__ = [
     "GradientDescent",
