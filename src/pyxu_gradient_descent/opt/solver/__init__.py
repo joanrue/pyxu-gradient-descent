@@ -94,9 +94,6 @@ class GradientDescent(pxa.Solver):
         mst = self._mstate  # shorthand
         mst["x"] = mst["x_prev"] = x0
 
-        if self._f is None:
-            self._f = pxof.NullFunc(dim=x0.shape[-1])
-
         if tau is None:
             try:
                 mst["tau"] = pxrt.coerce(1 / self._f.estimate_diff_lipschitz(method="svd", tol=0.1))
