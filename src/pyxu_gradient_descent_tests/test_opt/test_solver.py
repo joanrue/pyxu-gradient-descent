@@ -4,8 +4,7 @@ import pyxu.info.deps as pxd
 import pyxu.runtime as pxrt
 import pyxu.util as pxu
 from pyxu.operator.func import SquaredL2Norm
-
-from pyxu_gradient_descent import GradientDescent
+from pyxu.opt.solver import GradientDescent
 
 
 def allclose(x, y, xp):
