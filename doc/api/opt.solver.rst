@@ -9,5 +9,5 @@ pyxu.opt
 pyxu.opt.solver
 ---------------
 
-.. autoclass:: pyxu-gradient-descent.opt.solver.GradientDescent
+.. autoclass:: pyxu.opt.solver.GradientDescent
    :no-members:

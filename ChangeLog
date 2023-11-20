@@ -1,0 +1,23 @@
+CHANGES
+=======
+
+* [docs] add docs structure
+* [ref] remove unused imports
+* [tests][bugfix] import GradientDescent from Pyxu not from plugin
+* [bugfix] add correct entry point specification
+
+v0.1.1
+------
+
+* [bugfix] change long\_description README from md to rst
+* [enh] add dev-status to setup.cfg
+
+v0.1.0
+------
+
+* remove impossible case
+* black + isort
+* add tests to improve coverage
+* add pytest-cov dependency
+* add codecov report
+* initial commit

@@ -1,10 +1,9 @@
 import importlib.metadata
 
 try:
-    __version__ = importlib.metadata.version("pyxu_eigh")
+    __version__ = importlib.metadata.version("pyxu_gradient_descent")
 except ImportError:
     __version__ = "unknown"
-from .opt import GradientDescent
-
+from .opt.solver import GradientDescent
 
 __all__ = ("GradientDescent",)

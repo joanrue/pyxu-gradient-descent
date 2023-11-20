@@ -3,8 +3,12 @@ import pytest
 import pyxu.info.deps as pxd
 import pyxu.runtime as pxrt
 import pyxu.util as pxu
-from pyxu.operator.func import SquaredL2Norm
-from pyxu.opt.solver import GradientDescent
+from pyxu.operator import SquaredL2Norm
+
+# We test the class from the plugin package to be able to test the code coverage, which woudln't work if we test
+# the class in Pyxu.
+# from pyxu.opt.solver import GradientDescent
+from pyxu_gradient_descent.opt.solver import GradientDescent
 
 
 def allclose(x, y, xp):
