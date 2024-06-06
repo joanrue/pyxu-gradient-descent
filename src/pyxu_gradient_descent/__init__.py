@@ -4,6 +4,7 @@ try:
     __version__ = importlib.metadata.version("pyxu_gradient_descent")
 except ImportError:
     __version__ = "unknown"
-from .opt.solver import GradientDescent
+
+from .opt import GradientDescent
 
 __all__ = ("GradientDescent",)
