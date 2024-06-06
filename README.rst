@@ -13,9 +13,9 @@ pyxu-gradient-descent
 .. image:: https://codecov.io/gh/joanrue/pyxu-gradient-descent/branch/main/graph/badge.svg
    :target: https://codecov.io/gh/joanrue/pyxu-gradient-descent
    :alt: codecov
-.. image:: https://img.shields.io/endpoint?url=https://pyxu-org.github.io/fair/shields/pyxu-gradient-descent
-   :alt: Pyxu score
-   :target: https://pyxu-org.github.io/fair/score.html
+.. .. image:: https://img.shields.io/endpoint?url=https://pyxu-org.github.io/fair/shields/pyxu-gradient-descent
+..    :alt: Pyxu score
+..    :target: https://pyxu-org.github.io/fair/score.html
 
 An accelerated gradient descent optimizer for Pyxu
 --------------------------------------------------
